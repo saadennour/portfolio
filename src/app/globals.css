@@ -31,3 +31,11 @@ body {
     text-wrap: balance;
   }
 }
+
+.debug {
+  border: 2px solid blue !important;
+}
+
+.debug>*{
+  border: 2px solid red !important;
+}

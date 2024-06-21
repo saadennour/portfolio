@@ -1,0 +1,8 @@
+/* components/Quote.module.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+.font-nanum-pen-script {
+  font-family: 'Nanum Pen Script', cursive;
+  font-weight: normal;
+}

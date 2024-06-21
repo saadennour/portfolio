@@ -1,0 +1,15 @@
+@keyframes draw {
+	to {
+	  stroke-dashoffset: 0;
+	}
+  }
+  
+.slidein {
+	stroke: url(#paint0_linear_1005_16599);
+	stroke-width: 2;
+	fill: none;
+	stroke-dasharray: 1667; /* Length of the path */
+	stroke-dashoffset: 1667; /* Start with the path hidden */
+	animation: draw 4s forwards;
+}
+  
