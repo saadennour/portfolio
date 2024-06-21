@@ -29,7 +29,7 @@ export default function App() {
         <Skills />
         <Journey />
         <School />
-        {/* <Minishell /> */}
+        <Minishell />
         {/* <Sketches />
         <Webserver />
         <Pong />
