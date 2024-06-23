@@ -14,8 +14,6 @@ export const School = () => {
             image="/Assets/poolphoto.png"
             caption="Benguerir - 2021"
             objPos="object-bottom"
-            cardSize="w-[200px] h-[160px]  md:w-[320px] md:h-[250px] lg:w-[360px] lg:h-[280px] xl:w-[400px] xl:h-[320px]"
-            imageSize="w-[200px] h-[132px] md:w-[320px] md:h-[220px] lg:w-[360px] lg:h-[245px] xl:w-[400px] xl:h-[280px]"
             className="self-center"
           />
         </div>

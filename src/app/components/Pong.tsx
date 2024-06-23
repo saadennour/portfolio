@@ -8,8 +8,8 @@ import { Description } from "./Description";
 
 export default function Pong() {
   return (
-    <div className="w-full">
-      <div className="px-28 flex items-center max-sm:pl-4 max-sm:pr-0">
+    <div className="w-full flex flex-col gap-10">
+      <div className="flex items-center max-sm:pl-4">
         <div className="relative">
           <Image
             src="/Vectors/PongArrow.svg"
@@ -31,7 +31,7 @@ export default function Pong() {
           className="bg-gradient-to-r from-Berry to-Red bg-clip-text text-transparent"
         />
       </div>
-      <div className="p-20 flex gap-20 max-sm:p-5 max-sm:gap-8">
+      <div className="flex gap-20 max-sm:p-5 max-sm:gap-8">
         <div className="w-1/2 flex flex-col gap-10 max-sm:gap-5">
           <div className="bg-gradient-to-r from-Berry to-Red bg-clip-text text-transparent">
             <BigTitle content="Pong Game" />
@@ -52,8 +52,6 @@ export default function Pong() {
                 image="/Assets/Match.jpeg"
                 caption="3anakib"
                 objPos="object-top"
-                imageSize="h-[190px] w-[280px] max-sm:h-[100px] max-sm:w-[150px] max-sm:ml-[5px]"
-                cardSize="w-[300px] h-[240px] max-sm:h-[120px] max-sm:w-[160px]"
                 className="ml-6 rotate-12 max-sm:ml-0 2xl:scale-150"
               />
             </div>

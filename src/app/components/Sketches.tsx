@@ -5,8 +5,8 @@ import Image from "next/image";
 
 export default function Sketches() {
   return (
-    <div className="w-full">
-      <div className="flex items-center justify-center max-sm:py-5">
+    <div className="w-full flex flex-col gap-10">
+      <div className="flex items-center justify-center">
         <Quote
           content="It was time to learn something new."
           className="bg-gradient-to-r from-Grass to-Peach bg-clip-text text-transparent"
@@ -17,13 +17,14 @@ export default function Sketches() {
             alt="C++ Logo"
             width={100}
             height={100}
-            className="absolute top-1/2 left-20 rotate-12 max-sm:w-[50px] max-sm:h-[50px] max-sm:left-10"
+            className="absolute top-1/2 left-20 rotate-12 max-md:w-[50px] max-md:h-[50px] max-md:left-10"
           />
           <Image
             src="/Vectors/SketchArrow.svg"
             alt="Arrow"
             height={534}
             width={375}
+            className="max-md:w-[200px] max-md:h-[300px]"
           />
         </div>
       </div>
@@ -35,7 +36,7 @@ export default function Sketches() {
               alt="Monicca Drawing"
               height={300}
               width={300}
-              className="object-cover rotate-12 h-[300px] w-[300px] 2xl:h-[500px] 2xl:w-[500px] max-xl:h-[250px] max-xl:w-[250px] max-sm:h-[100px] max-sm:w-[100px]"
+              className="object-cover rotate-12 xl:h-[300px] xl:w-[300px] 2xl:h-[500px] 2xl:w-[500px] max-xl:h-[250px] max-xl:w-[250px] max-sm:h-[100px] sm:h-[175px] max-sm:w-[100px] sm:w-[175px]"
             />
           </div>
           <div className="flex">
@@ -44,14 +45,14 @@ export default function Sketches() {
               alt="Paper"
               height={200}
               width={200}
-              className="max-sm:w-[50px] max-sm:h-[50px] 2xl:h-[250px] 2xl:w-[250px] max-xl:h-[150px] max-xl:w-[150px]"
+              className="max-sm:w-[50px] sm:w-[100px] xl:w-[200px] max-sm:h-[50px] sm:h-[100px] xl:h-[200px] 2xl:h-[250px] 2xl:w-[250px] max-xl:h-[150px] max-xl:w-[150px]"
             />
             <Image
               src="/Sketches/Pencil.png"
               alt="Pencil"
               width={200}
               height={200}
-              className="rotate-180 max-sm:w-[50px] max-sm:h-[50px] 2xl:h-[250px] 2xl:w-[250px] max-xl:h-[150px] max-xl:w-[150px]"
+              className="rotate-180 max-sm:w-[50px] sm:w-[100px] xl:w-[200px] max-sm:h-[50px] sm:h-[100px] xl:h-[200px] 2xl:h-[250px] 2xl:w-[250px] max-xl:h-[150px] max-xl:w-[150px]"
             />
           </div>
         </div>
@@ -73,23 +74,23 @@ export default function Sketches() {
               alt="Paper"
               height={200}
               width={200}
-              className="max-sm:w-[50px] max-sm:h-[50px] 2xl:h-[250px] 2xl:w-[250px] max-xl:h-[150px] max-xl:w-[150px]"
+              className="max-sm:w-[50px] sm:w-[100px] xl:w-[200px] max-sm:h-[50px] sm:h-[100px] xl:h-[200px] 2xl:h-[250px] 2xl:w-[250px] max-xl:h-[150px] max-xl:w-[150px]"
             />
             <Image
               src="/Sketches/Pencil.png"
               alt="Pencil"
               width={200}
               height={200}
-              className="max-sm:w-[50px] max-sm:h-[50px] 2xl:h-[250px] 2xl:w-[250px] max-xl:h-[150px] max-xl:w-[150px]"
+              className="max-sm:w-[50px] sm:w-[100px] max-xl:w-[150px] xl:w-[200px] max-sm:h-[50px] sm:h-[100px] max-xl:h-[150px] xl:h-[200px] 2xl:h-[250px] 2xl:w-[250px]"
             />
           </div>
           <div className="" data-aos="fade-left">
             <Image
               src="/Sketches/Dragon.jpeg"
-              alt="Monicca Drawing"
+              alt="Dragon Drawing"
               height={200}
               width={300}
-              className="object-cover -rotate-12 h-[350px] w-[350px] 2xl:h-[500px] 2xl:w-[500px] max-xl:h-[250px] max-xl:w-[250px] ml-auto max-sm:h-[100px] max-sm:w-[100px]"
+              className="object-cover -rotate-12 h-[350px] w-[350px] 2xl:h-[500px] 2xl:w-[500px] max-xl:h-[250px] max-xl:w-[250px] ml-auto max-sm:h-[100px] sm:h-[175px] xl:h-[300px] max-sm:w-[100px] sm:w-[175px] xl:w-[300px]"
             />
           </div>
         </div>

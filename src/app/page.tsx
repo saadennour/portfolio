@@ -30,10 +30,10 @@ export default function App() {
         <Journey />
         <School />
         <Minishell />
-        {/* <Sketches />
+        <Sketches />
         <Webserver />
-        <Pong />
-        <Footer /> */}
+        <Pong /> {/* only description left */}
+        <Footer />
       </main>
     </>
   );

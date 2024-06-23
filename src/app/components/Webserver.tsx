@@ -11,7 +11,7 @@ import Link from "next/link";
 export default function Webserver() {
   return (
     <div className="w-full flex flex-col gap-10">
-      <div className="flex items-center px-20 gap-10 max-sm:px-5 max-sm:gap-1 2xl:gap-20">
+      <div className="flex items-center gap-10 2xl:gap-20">
         <div className="w-1/3 h-full flex flex-col justify-center gap-10">
           <Link href={"https://github.com/saadennour"}>
             <BsGithub
@@ -48,16 +48,16 @@ export default function Webserver() {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center gap-20 max-sm:gap-16 max-sm:p-10 max-xl:p-10">
+      <div className="flex items-center justify-center gap-20">
         <div className="w-1/2">
           <div className="relative">
             <Ticket
               content="Get Method"
-              color="bg-[#FBF49A] absolute bottom-0 right-2/4 -rotate-6 2xl:bottom-4 max-xl:-top-4"
+              color="bg-[#FBF49A] absolute bottom-0 right-2/4 -rotate-6 2xl:bottom-4 "
             />
             <Ticket
               content="Post Method"
-              color="bg-Grape absolute bottom-0 right-1/4 2xl:bottom-8 max-xl:-top-6"
+              color="bg-Grape absolute bottom-0 right-1/4 2xl:bottom-8"
             />
           </div>
           <div className="flex flex-col items-center relative">
@@ -66,8 +66,6 @@ export default function Webserver() {
                 image="/Code/Webserv.png"
                 caption="A Block of Code"
                 objPos=""
-                imageSize="h-[270px] w-[400px] max-sm:h-[115px] max-sm:w-[170px] max-sm:ml-[5px]"
-                cardSize="w-[420px] h-[330px] max-sm:h-[140px] max-sm:w-[180px] max-sm:ml-[5px]"
                 className="ml-12"
               />
             </div>
@@ -76,9 +74,7 @@ export default function Webserver() {
                 image="/Assets/3anakib.jpeg"
                 caption="Genei Ryodan"
                 objPos=""
-                imageSize="h-[270px] w-[400px] max-sm:h-[115px] max-sm:w-[170px] max-sm:ml-[5px]"
-                cardSize="w-[420px] h-[330px] max-sm:h-[140px] max-sm:w-[180px] max-sm:ml-[5px]"
-                className="rotate-6 2xl:mt-20 max-sm:ml-10"
+                className="rotate-6 2xl:mt-20"
               />
             </div>
             <div className="w-full h-[85px] mt-8 max-sm:mt-4">
@@ -89,14 +85,14 @@ export default function Webserver() {
               alt="Circle"
               height={161}
               width={103}
-              className="absolute bottom-1/3 right-[27%] max-xl:w-[80px] 2xl:right-[36%] max-xl:right-[22%] max-sm:hidden"
+              className="max-lg:hidden absolute lg:w-[75px] lg:h-[120px] lg:right-[25%] lg:bottom-[37%] xl:w-[100px] xl:h-[140px] xl:right-[27%] xl:bottom-[35%]"
             />
             <Image
               src="/Vectors/TeamArrow.svg"
               alt="Arrow"
               height={430}
               width={148}
-              className="h-[380px] absolute -bottom-16 left-[39%] 2xl:h-[430px] 2xl:w-[200px] max-xl:h-[420px] max-xl:w-[125px] max-sm:hidden 2xl:left-[43%] 2xl:-bottom-[85px] max-xl:left-[33%] max-xl:-bottom-[90px]"
+              className="max-lg:hidden absolute -bottom-16 lg:w-[120px] lg:h-[375px] xl:h-[420px] xl:-bottom-18 xl:right-[37%]"
             />
           </div>
         </div>
@@ -113,17 +109,17 @@ export default function Webserver() {
           </div>
           <Body
             content="One of the most thrilling projects i worked on, a group project where you should build a web server with C++."
-            className="max-sm:text-[8px]"
+            className=""
           />
           <Body
             content="I learned a lot about HTTP servers, how the requests are handled, and the appropriate responses for each case of the different request methods."
-            className="max-sm:text-[8px]"
+            className=""
           />
         </div>
       </div>
       <Quote
         content="Team project"
-        className="bg-gradient-to-r from-Violet to-Grape bg-clip-text text-transparent 2xl:ml-56 max-sm:hidden"
+        className="bg-gradient-to-r from-Violet to-Grape bg-clip-text text-transparent 2xl:ml-56 max-lg:hidden"
       />
     </div>
   );
