@@ -8,7 +8,7 @@ import { Description } from "./Description";
 
 export default function Minishell() {
   return (
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-10 ">
       <div className="flex items-center justify-around">
         <Quote
           content="in each step forward it just kept getting interesting."
@@ -42,7 +42,7 @@ export default function Minishell() {
 The idea was to build a shell from scratch, parsing the data passed on the prompt, handle the different cases, such as pipes, redirection, simple Bash commands and execute it was my responsibility."
             className=""
           />
-          <div className="flex gap-5 h-28 md:h-32">
+          <div className="flex gap-5">
             <Description content="It was a bit of struggle at first sight, but each phase done made me more curious and excited." />
             <Description content="By the end of the project, i was sure that i'm able to create anything using just blocks of code." />
           </div>

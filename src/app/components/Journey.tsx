@@ -23,7 +23,7 @@ export default function Journey() {
             className="animate-rflashy self-end max-lg:h-[36px] max-lg:w-[18px]"
           />
         </div>
-        <h2 className="text-3xl lg:text-4xl leading-9 lg:leading-10">
+        <h2 className="xs:debug text-3xl lg:text-4xl leading-9 lg:leading-10">
           My Journey
         </h2>
       </div>

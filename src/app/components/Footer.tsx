@@ -50,14 +50,14 @@ export default function Footer() {
             alt="bassin"
             height={460}
             width={340}
-            className="h-[400px] w-[280px] max-xl:scale-90 2xl:h-[550px] 2xl:w-[400px] max-md:h-[250px] max-md:w-[180px] border-4 border-white rounded-3xl object-cover rotate-6"
+            className="h-[400px] w-[280px] max-xl:scale-90 2xl:h-[550px] 2xl:w-[400px] max-lg:h-[250px] max-lg:w-[180px] border-4 border-white rounded-3xl object-cover rotate-6"
           />
           <Image
             src="/Assets/restroom.jpeg"
             alt="The Boys"
             height={375}
             width={285}
-            className="h-[350px] w-[260px] max-xl:scale-90 2xl:h-[500px] 2xl:w-[360px] max-md:h-[250px] max-md:w-[160px] max-sm:object-left object-cover border-4 border-white rounded-3xl -rotate-6 absolute top-[45%] left-1/3 max-sm:left-0"
+            className="h-[350px] w-[260px] max-xl:scale-90 2xl:h-[500px] 2xl:w-[360px] max-lg:h-[250px] max-lg:w-[160px] max-sm:object-left object-cover border-4 border-white rounded-3xl -rotate-6 absolute top-[45%] left-1/3 max-sm:left-0"
           />
         </div>
       </div>
@@ -68,39 +68,41 @@ export default function Footer() {
           height={320}
           width={720}
         />
-        <div className="flex w-full">
+        <div
+          className={`flex w-full md:text-[24px] lg:text-[32px] xl:text-[40px] leading-10 ${pen.className}`}
+        >
           <Link
             href={"https://www.linkedin.com/in/saadennourfarhan/"}
-            className="w-1/3 flex flex-col gap-8 items-center"
+            className={`w-1/3 flex flex-col gap-8 items-center bg-gradient-to-r from-Sky to-LightSky bg-clip-text text-transparent text-nowrap`}
           >
-            <a
-              className={`${pen.className} text-[40px] leading-10 bg-gradient-to-r from-Sky to-LightSky bg-clip-text text-transparent max-sm:text-[12px] text-center`}
-            >
-              CONNECT ON LINKENDIN
-            </a>
-            <FaLinkedin size={64} className="max-sm:h-[30px] max-sm:w-[30px]" />
+            CONNECT ON LINKENDIN
+            <FaLinkedin
+              size={64}
+              className="max-sm:h-[30px] max-sm:w-[30px]"
+              color="white"
+            />
           </Link>
           <Link
             href={"https://github.com/saadennour"}
-            className="w-1/3 flex flex-col gap-8 items-center"
+            className={`w-1/3 flex flex-col gap-8 items-center bg-gradient-to-r from-LightSky to-Lime bg-clip-text text-transparent text-nowrap`}
           >
-            <a
-              className={`${pen.className} text-[40px] leading-10 bg-gradient-to-r from-LightSky to-Lime bg-clip-text text-transparent max-sm:text-[12px] text-center`}
-            >
-              PAY A VISIT ON GITHUB
-            </a>
-            <FaGithub size={64} className="max-sm:h-[30px] max-sm:w-[30px]" />
+            PAY A VISIT ON GITHUB
+            <FaGithub
+              size={64}
+              className="max-sm:h-[30px] max-sm:w-[30px]"
+              color="white"
+            />
           </Link>
           <Link
             href={"mailto:saadennourfarhan@gmail.com"}
-            className="w-1/3 flex flex-col gap-8 items-center"
+            className={`w-1/3 flex flex-col gap-8 items-center bg-gradient-to-r from-Lime to-Citron bg-clip-text text-transparent text-nowrap`}
           >
-            <a
-              className={`${pen.className} text-[40px] leading-10 bg-gradient-to-r from-Lime to-Citron bg-clip-text text-transparent max-sm:text-[18px] text-center`}
-            >
-              SEND ME AN EMAIL
-            </a>
-            <IoMdMail size={64} className="max-sm:h-[30px] max-sm:w-[30px]" />
+            SEND ME AN EMAIL
+            <IoMdMail
+              size={64}
+              className="max-sm:h-[30px] max-sm:w-[30px]"
+              color="white"
+            />
           </Link>
         </div>
       </footer>

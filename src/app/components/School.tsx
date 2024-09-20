@@ -35,7 +35,7 @@ export const School = () => {
           className="bg-gradient-to-r from-Sky to-LightSky bg-clip-text text-transparent"
         />
         <Body content="On 2021 summer, i attended 1337 pool, met new people and made my first real steps into coding world." />
-        <div className="flex gap-5 lg:gap-10 h-32 mt-10 lg:mt-20">
+        <div className="flex gap-5 lg:gap-10 mt-10 lg:mt-20">
           <Description content="I learned C, it was a bit hard but it went from hello world to dealing with data structures pretty fast." />
           <Description content="Had the opportunity to meet some amazing people from whom i learned new stuff." />
         </div>

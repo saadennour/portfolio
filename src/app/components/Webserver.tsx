@@ -85,14 +85,14 @@ export default function Webserver() {
               alt="Circle"
               height={161}
               width={103}
-              className="max-lg:hidden absolute lg:w-[75px] lg:h-[120px] lg:right-[25%] lg:bottom-[37%] xl:w-[100px] xl:h-[140px] xl:right-[27%] xl:bottom-[35%]"
+              className="max-lg:hidden 2xl:hidden absolute lg:w-[75px] lg:h-[120px] lg:right-[25%] lg:bottom-[37%] xl:w-[100px] xl:h-[140px] xl:right-[27%] xl:bottom-[35%] 2xl:right-[31%]"
             />
             <Image
               src="/Vectors/TeamArrow.svg"
               alt="Arrow"
               height={430}
               width={148}
-              className="max-lg:hidden absolute -bottom-16 lg:w-[120px] lg:h-[375px] xl:h-[420px] xl:-bottom-18 xl:right-[37%]"
+              className="max-lg:hidden 2xl:hidden absolute -bottom-16 lg:w-[120px] lg:h-[375px] xl:h-[420px] xl:-bottom-18 xl:right-[37%] 2xl:w-[130px] 2xl:h-[380px] 2xl:right-[38%] 2xl:-bottom-9"
             />
           </div>
         </div>
@@ -119,7 +119,7 @@ export default function Webserver() {
       </div>
       <Quote
         content="Team project"
-        className="bg-gradient-to-r from-Violet to-Grape bg-clip-text text-transparent 2xl:ml-56 max-lg:hidden"
+        className="bg-gradient-to-r from-Violet to-Grape bg-clip-text text-transparent 2xl:ml-56 max-lg:hidden 2xl:hidden"
       />
     </div>
   );

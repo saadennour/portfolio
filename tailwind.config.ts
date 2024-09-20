@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss";
 
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -65,6 +67,12 @@ const config: Config = {
         flashy: "flashy 3s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         rflashy: "rflashy 3s cubic-bezier(0.4, 0, 0.6, 1) infinite",
         line: "line 3s linear",
+      },
+      theme: {
+        screens: {
+          xs: "320px",
+          ...defaultTheme.screens,
+        },
       },
     },
   },
