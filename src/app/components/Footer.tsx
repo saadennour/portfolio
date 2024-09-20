@@ -21,12 +21,13 @@ export default function Footer() {
             className="bg-gradient-to-r from-Violet to-Grape bg-clip-text text-transparent"
           />
           <Body content="My journey didn't end here and i still have the same hunger to learn, grow and achieve more." />
-          <Link
-            href={"/resume"}
+          <a
+            href={"/resume.pdf"}
+            download={"SaadEnnour_Resume.pdf"}
             className={`${dm_sans.className} bg-gradient-to-r from-Lime to-Citron bg-clip-text text-transparent border-4 border-Grape rounded-[32px] px-6 py-2 text-[24px] leading-8 max-md:border-2 max-md:px-2 max-md:py-1 max-md:text-[12px] max-md:leading-4 self-center cursor-pointer hover:transition ease-in-out hover:scale-110 delay-150 duration-500`}
           >
             Resume
-          </Link>
+          </a>
         </div>
         <div className="w-1/2 relative h-[720px]">
           <div className="flex justify-center gap-4 rotate-12 pl-40">
