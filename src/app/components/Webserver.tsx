@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export default function Webserver() {
   return (
-    <div className="w-full flex flex-col gap-10">
+    <div className="w-full flex flex-col gap-20">
       <div className="flex items-center gap-10 2xl:gap-20">
         <div className="w-1/3 h-full flex flex-col justify-center gap-10">
           <Link href={"https://github.com/saadennour"}>
@@ -48,7 +48,7 @@ export default function Webserver() {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center gap-20">
+      <div className="flex items-center justify-center max-sm:gap-10 gap-20">
         <div className="w-1/2">
           <div className="relative">
             <Ticket
