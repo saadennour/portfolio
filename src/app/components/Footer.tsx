@@ -70,7 +70,7 @@ export default function Footer() {
           width={720}
         />
         <div
-          className={`flex w-full md:text-[24px] lg:text-[32px] xl:text-[40px] leading-10 ${pen.className}`}
+          className={`flex w-full max-sm:text-xs md:text-[24px] lg:text-[32px] xl:text-[40px] leading-10 ${pen.className}`}
         >
           <Link
             href={"https://www.linkedin.com/in/saadennourfarhan/"}

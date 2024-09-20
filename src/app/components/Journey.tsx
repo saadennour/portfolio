@@ -23,14 +23,14 @@ export default function Journey() {
             className="animate-rflashy self-end max-lg:h-[36px] max-lg:w-[18px]"
           />
         </div>
-        <h2 className="xs:debug text-3xl lg:text-4xl leading-9 lg:leading-10">
+        <h2 className="max-sm:text-2xl text-3xl lg:text-4xl leading-9 lg:leading-10 text-nowrap">
           My Journey
         </h2>
       </div>
-      <div className="w-full flex items-center justify-between gap-10">
+      <div className="w-full flex items-center justify-between md:gap-10">
         <Quote
           content="it all started on summer 2021"
-          className="bg-gradient-to-r from-Sky to-LightSky bg-clip-text text-transparent text-center w-[30%]"
+          className="bg-gradient-to-r from-Sky to-LightSky bg-clip-text text-transparent w-[32%]"
         />
         <div className="flex">
           <Image
@@ -38,14 +38,14 @@ export default function Journey() {
             alt="CurvedLine"
             height={423}
             width={169}
-            className="h-[250px] w-[100px] lg:h-[300px] lg:w-[120px] xl:h-[350px] xl:w-[140px]"
+            className="h-[150px] w-[50px] md:h-[250px] md:w-[100px] lg:h-[300px] lg:w-[120px] xl:h-[350px] xl:w-[140px]"
           />
           <Image
             src="/Vectors/DashLine.svg"
             alt="DashedLine"
             height={124}
             width={166}
-            className="h-[62px] mt-24 max-md:w-[100px] md:w-[75px] lg:h-[175px] lg:w-[110px] xl:h-[250px] xl:w-[150px]"
+            className="h-[64px] max-sm:mt-12 mt-24 max-sm:w-[50px] max-md:w-[100px] md:w-[75px] lg:h-[175px] lg:w-[110px] xl:h-[250px] xl:w-[150px]"
           />
         </div>
         <div className="self-end w-1/3 flex flex-col gap-20 max-sm:gap-10 justify-between">

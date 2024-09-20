@@ -9,15 +9,15 @@ export default function Home() {
           alt="me"
           width={150}
           height={150}
-          className="rounded-full aspect-auto max-sm:w-[150px] max-sm:h-[150px]"
+          className="rounded-full aspect-auto max-sm:w-[100px] max-sm:h-[100px]"
         />
-        <h1 className="text-center font-bold text-5xl md:text-6xl xl:text-8xl leading-[64px] md:leading-[80px] xl:leading-[128px] text-Grape">
+        <h1 className="text-center font-bold text-3xl md:text-6xl xl:text-8xl leading-[48px] md:leading-[80px] xl:leading-[128px] text-Grape">
           Hi. I'm Saad.
           <br />A Developer.
         </h1>
       </div>
       <svg
-        className="m-10 xl:m-20 max-md:w-[350px] max-md:h-[200px] max-lg:w-[450px] max-lg:h-[300px]"
+        className="xl:m-20 max-md:w-[250px] max-md:h-[200px] max-lg:w-[450px] max-lg:h-[300px]"
         xmlns="http://www.w3.org/2000/svg"
         width="728"
         height="141"

@@ -7,8 +7,8 @@ import Image from "next/image";
 
 export const School = () => {
   return (
-    <div className="flex gap-10 sm:gap-16 lg:gap-20 items-center">
-      <div className="h-full w-1/2 flex flex-col items-center relative">
+    <div className="w-full flex gap-5 sm:gap-12 lg:gap-20 items-center">
+      <div className=" w-1/2 flex flex-col items-center relative">
         <div data-aos="flip-left" data-aos-duration="1000">
           <Picture
             image="/Assets/poolphoto.png"
@@ -22,7 +22,7 @@ export const School = () => {
           alt="i am there"
           height={255}
           width={103}
-          className="w-[100px] h-[150px] md:w-[150px] md:h-[180px] lg:w-[175px] lg:h-[200px] xl:w-[200px] xl:h-[220px] absolute bottom-8 left-10 lg:left-14 xl:left-24 2xl:left-80"
+          className="w-[75px] h-[125px] sm:w-[100px] sm:h-[150px] md:w-[150px] md:h-[180px] lg:w-[175px] lg:h-[200px] xl:w-[200px] xl:h-[220px] absolute bottom-8 left-10 lg:left-14 xl:left-24 2xl:left-80"
         />
         <Quote
           content="I'm somewhere here."

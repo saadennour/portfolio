@@ -37,8 +37,10 @@ export default function Skills() {
 
   return (
     <div className="flex flex-col items-center gap-20 w-2/3">
-      <h2 className="text-4xl lg:text-5xl leading-9 lg:leading-10">Skills</h2>
-      <div className="flex flex-wrap justify-between gap-10">
+      <h2 className="max-sm:text-2xl text-3xl lg:text-5xl leading-9 lg:leading-10">
+        Skills
+      </h2>
+      <div className="flex flex-wrap justify-between max-sm:gap-5 gap-10">
         {Skills.map((skill, index) => (
           <div key={index} data-aos="fade-up">
             <SkillTag name={skill} />
@@ -46,7 +48,7 @@ export default function Skills() {
         ))}
       </div>
       <svg
-        className="w-[500px] h-[350px] lg:w-[720px] lg:h-[500px]"
+        className="max-sm:w-[350px] max-sm:h-[200px] w-[500px] h-[350px] lg:w-[720px] lg:h-[500px]"
         id="animated-svg"
         width="254"
         height="439"

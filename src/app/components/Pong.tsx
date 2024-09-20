@@ -31,7 +31,7 @@ export default function Pong() {
           className="bg-gradient-to-r from-Berry to-Red bg-clip-text text-transparent"
         />
       </div>
-      <div className="flex gap-20 max-sm:p-5 max-sm:gap-8">
+      <div className="flex gap-20 max-sm:gap-5">
         <div className="w-1/2 flex flex-col gap-10 max-sm:gap-5">
           <div className="bg-gradient-to-r from-Berry to-Red bg-clip-text text-transparent">
             <BigTitle content="Pong Game" />
@@ -40,7 +40,7 @@ export default function Pong() {
           <Body content="My first web app, our goal was to build a platform where you can play real time with other players." />
           <Body content="The main idea was to offer some thrilling ping pong games, connect with friends, engage in lively chats and build a community by adding friends." />
           <Body content="Achieve milestones and earn cool achievements that showcase your progress." />
-          <div className="flex gap-6 max-lg:hidden">
+          <div className="flex gap-3">
             <Description content="My first project as Front-end Developer, a project that i really enjoyed, and the one behind my obsession with web development." />
             <Description content="Working with new frameworks and tools like next.js, tailwind and figma. The project was done after 2 months of hard work and challenges." />
           </div>

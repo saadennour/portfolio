@@ -17,7 +17,7 @@ export default function Sketches() {
             alt="C++ Logo"
             width={100}
             height={100}
-            className="absolute top-1/2 left-20 rotate-12 max-md:w-[50px] max-md:h-[50px] max-md:left-10"
+            className="absolute top-1/2 left-20 rotate-12 max-sm:w-[40px] max-sm:h-[40px] max-md:w-[50px] max-md:h-[50px] max-md:left-10"
           />
           <Image
             src="/Vectors/SketchArrow.svg"

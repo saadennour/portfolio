@@ -8,7 +8,7 @@ import { Description } from "./Description";
 
 export default function Minishell() {
   return (
-    <div className="flex flex-col gap-10 ">
+    <div className="flex flex-col gap-10">
       <div className="flex items-center justify-around">
         <Quote
           content="in each step forward it just kept getting interesting."
@@ -31,7 +31,7 @@ export default function Minishell() {
           />
         </div>
       </div>
-      <div className="flex gap-10">
+      <div className="flex max-sm:gap-5 gap-10">
         <div className="flex flex-col justify-between w-1/2 gap-10 max-sm:gap-5">
           <div className="bg-gradient-to-r from-LightSky to-Lime bg-clip-text text-transparent">
             <BigTitle content="Minishell" />
