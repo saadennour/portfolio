@@ -13,7 +13,7 @@ export default function App() {
   return (
     <>
       <Scroll />
-      <main className="min-w-[375px] h-full flex flex-col items-center gap-20 p-20 max-sm:p-5 overflow-x-hidden">
+      <main className="min-w-[375px] h-full flex flex-col items-center gap-20 p-20 max-sm:p-5 overflow-x-hidden no-scrollbar">
         <Home />
         <Skills />
         <Journey />
