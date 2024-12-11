@@ -12,14 +12,14 @@ export default function Pong() {
       <div className="flex items-center max-sm:pl-4">
         <div className="relative">
           <Image
-            src="/Vectors/PongArrow.svg"
+            src="/portfolio/Vectors/PongArrow.svg"
             alt="Arrow"
             height={435}
             width={651}
             className=""
           />
           <Image
-            src="/Logos/React.png"
+            src="/portfolio/Logos/React.png"
             alt="React Logo"
             height={100}
             width={100}
@@ -49,7 +49,7 @@ export default function Pong() {
           <div className="w-full flex max-sm:flex-col max-xl:flex-col items-center justify-center">
             <div data-aos="flip-left" data-aos-duration="1000">
               <Picture
-                image="/Assets/Match.jpeg"
+                image="/portfolio/Assets/Match.jpeg"
                 caption="3anakib"
                 objPos="object-top"
                 className="ml-6 rotate-12 max-sm:ml-0 2xl:scale-150"
@@ -62,7 +62,7 @@ export default function Pong() {
             />
           </div>
           <Image
-            src="/Assets/App.png"
+            src="/portfolio/Assets/App.png"
             alt="Pong App"
             width={500}
             height={500}

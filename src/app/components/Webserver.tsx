@@ -27,7 +27,7 @@ export default function Webserver() {
         </div>
         <div className="relative w-2/3">
           <Image
-            src="/Vectors/WebservArrow.svg"
+            src="/portfolio/Vectors/WebservArrow.svg"
             alt="Arrow"
             height={457}
             width={426}
@@ -35,7 +35,7 @@ export default function Webserver() {
           />
           <div className="absolute top-1/3 left-1/3 flex flex-col gap-10">
             <Image
-              src="/Logos/Docker.png"
+              src="/portfolio/Logos/Docker.png"
               alt="Docker Logo"
               height={100}
               width={100}
@@ -63,7 +63,7 @@ export default function Webserver() {
           <div className="flex flex-col items-center relative">
             <div data-aos="flip-left" data-aos-duration="1000">
               <Picture
-                image="/Code/Webserv.png"
+                image="/portfolio/Code/Webserv.png"
                 caption="A Block of Code"
                 objPos=""
                 className="ml-12"
@@ -71,7 +71,7 @@ export default function Webserver() {
             </div>
             <div data-aos="flip-left" data-aos-duration="1000">
               <Picture
-                image="/Assets/3anakib.jpeg"
+                image="/portfolio/Assets/3anakib.jpeg"
                 caption="Genei Ryodan"
                 objPos=""
                 className="rotate-6 2xl:mt-20"
@@ -81,14 +81,14 @@ export default function Webserver() {
               <Ticket content="Socket" color="bg-[#FF4646] ml-auto rotate-6" />
             </div>
             <Image
-              src="/Vectors/Circle.svg"
+              src="/portfolio/Vectors/Circle.svg"
               alt="Circle"
               height={161}
               width={103}
               className="max-lg:hidden 2xl:hidden absolute lg:w-[75px] lg:h-[120px] lg:right-[25%] lg:bottom-[37%] xl:w-[100px] xl:h-[140px] xl:right-[27%] xl:bottom-[35%] 2xl:right-[31%]"
             />
             <Image
-              src="/Vectors/TeamArrow.svg"
+              src="/portfolio/Vectors/TeamArrow.svg"
               alt="Arrow"
               height={430}
               width={148}

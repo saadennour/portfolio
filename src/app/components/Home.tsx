@@ -7,7 +7,7 @@ export default function Home() {
     <div className="w-full h-full flex flex-col gap-10 justify-between items-center max-sm:gap-5 2xl:gap-20">
       <div className="flex flex-col items-center gap-4">
         <Image
-          src={"/Assets/ana.jpeg"}
+          src={"/portfolio/Assets/ana.jpeg"}
           alt="me"
           width={150}
           height={150}

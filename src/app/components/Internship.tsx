@@ -7,14 +7,14 @@ export const Internship = () => {
       <div className="flex items-center max-sm:pl-4">
         <div className="relative">
           <Image
-            src="/Vectors/PongArrow.svg"
+            src="/portfolio/Vectors/PongArrow.svg"
             alt="Arrow"
             height={435}
             width={651}
             className=""
           />
           <Image
-            src="/Logos/React.png"
+            src="/portfolio/Logos/React.png"
             alt="React Logo"
             height={100}
             width={100}

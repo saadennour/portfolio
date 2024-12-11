@@ -32,14 +32,14 @@ export default function Footer() {
         <div className="w-1/2 relative h-[720px]">
           <div className="flex justify-center gap-4 rotate-12 pl-40">
             <Image
-              src="/Vectors/Star.svg"
+              src="/portfolio/Vectors/Star.svg"
               alt="BigStar"
               height={92}
               width={69}
               className="animate-flashy max-sm:w-[42px] max-sm:h-[56px]"
             />
             <Image
-              src="/Vectors/Star.svg"
+              src="/portfolio/Vectors/Star.svg"
               alt="MinStar"
               height={56}
               width={42}
@@ -47,14 +47,14 @@ export default function Footer() {
             />
           </div>
           <Image
-            src="/Assets/bassin.jpeg"
+            src="/portfolio/Assets/bassin.jpeg"
             alt="bassin"
             height={460}
             width={340}
             className="h-[400px] w-[280px] max-xl:scale-90 2xl:h-[550px] 2xl:w-[400px] max-lg:h-[250px] max-lg:w-[180px] border-4 border-white rounded-3xl object-cover rotate-6"
           />
           <Image
-            src="/Assets/restroom.jpeg"
+            src="/portfolio/Assets/restroom.jpeg"
             alt="The Boys"
             height={375}
             width={285}
@@ -64,7 +64,7 @@ export default function Footer() {
       </div>
       <footer className="flex flex-col items-center gap-20">
         <Image
-          src="/Vectors/LastOne.svg"
+          src="/portfolio/Vectors/LastOne.svg"
           alt="Doodle"
           height={320}
           width={720}

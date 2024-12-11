@@ -11,14 +11,14 @@ export const School = () => {
       <div className=" w-1/2 flex flex-col items-center relative">
         <div data-aos="flip-left" data-aos-duration="1000">
           <Picture
-            image="/Assets/poolphoto.png"
+            image="/portfolio/Assets/poolphoto.png"
             caption="Benguerir - 2021"
             objPos="object-bottom"
             className="self-center"
           />
         </div>
         <Image
-          src="/Vectors/SchoolArrow.svg"
+          src="/portfolio/Vectors/SchoolArrow.svg"
           alt="i am there"
           height={255}
           width={103}

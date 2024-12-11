@@ -16,14 +16,14 @@ export default function Minishell() {
         />
         <div className="relative">
           <Image
-            src="/Vectors/C_Arrow.svg"
+            src="/portfolio/Vectors/C_Arrow.svg"
             alt="Arrow"
             height={456}
             width={497}
             className="max-md:h-[250px] max-md:w-[270px]"
           />
           <Image
-            src="/Logos/C_Logo.png"
+            src="/portfolio/Logos/C_Logo.png"
             alt="C Logo"
             height={100}
             width={100}
@@ -50,14 +50,14 @@ The idea was to build a shell from scratch, parsing the data passed on the promp
         <div className="w-1/2 flex flex-col items-center max-sm:justify-center">
           <div data-aos="flip-left" data-aos-duration="1000">
             <Picture
-              image="/Code/Minishell.png"
+              image="/portfolio/Code/Minishell.png"
               caption="a block of code"
               objPos="object-bottom"
             />
           </div>
           <div data-aos="flip-left" data-aos-duration="1000">
             <Picture
-              image="/Assets/team.jpeg"
+              image="/portfolio/Assets/team.jpeg"
               caption="team project"
               className="rotate-6"
               objPos=""

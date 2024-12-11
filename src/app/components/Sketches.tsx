@@ -13,14 +13,14 @@ export default function Sketches() {
         />
         <div className="relative">
           <Image
-            src="/Logos/C_Plus.png"
+            src="/portfolio/Logos/C_Plus.png"
             alt="C++ Logo"
             width={100}
             height={100}
             className="absolute top-1/2 left-20 rotate-12 max-sm:w-[40px] max-sm:h-[40px] max-md:w-[50px] max-md:h-[50px] max-md:left-10"
           />
           <Image
-            src="/Vectors/SketchArrow.svg"
+            src="/portfolio/Vectors/SketchArrow.svg"
             alt="Arrow"
             height={534}
             width={375}
@@ -32,7 +32,7 @@ export default function Sketches() {
         <div className="w-1/3 overflow-hidden">
           <div className="" data-aos="fade-right">
             <Image
-              src="/Sketches/Monicca.jpeg"
+              src="/portfolio/Sketches/Monicca.jpeg"
               alt="Monicca Drawing"
               height={300}
               width={300}
@@ -41,14 +41,14 @@ export default function Sketches() {
           </div>
           <div className="flex">
             <Image
-              src="/Sketches/Paper.png"
+              src="/portfolio/Sketches/Paper.png"
               alt="Paper"
               height={200}
               width={200}
               className="max-sm:w-[50px] sm:w-[100px] xl:w-[200px] max-sm:h-[50px] sm:h-[100px] xl:h-[200px] 2xl:h-[250px] 2xl:w-[250px] max-xl:h-[150px] max-xl:w-[150px]"
             />
             <Image
-              src="/Sketches/Pencil.png"
+              src="/portfolio/Sketches/Pencil.png"
               alt="Pencil"
               width={200}
               height={200}
@@ -70,14 +70,14 @@ export default function Sketches() {
         <div className="w-1/3 overflow-hidden">
           <div className="flex">
             <Image
-              src="/Sketches/Paper.png"
+              src="/portfolio/Sketches/Paper.png"
               alt="Paper"
               height={200}
               width={200}
               className="max-sm:w-[50px] sm:w-[100px] xl:w-[200px] max-sm:h-[50px] sm:h-[100px] xl:h-[200px] 2xl:h-[250px] 2xl:w-[250px] max-xl:h-[150px] max-xl:w-[150px]"
             />
             <Image
-              src="/Sketches/Pencil.png"
+              src="/portfolio/Sketches/Pencil.png"
               alt="Pencil"
               width={200}
               height={200}
@@ -86,7 +86,7 @@ export default function Sketches() {
           </div>
           <div className="" data-aos="fade-left">
             <Image
-              src="/Sketches/Dragon.jpeg"
+              src="/portfolio/Sketches/Dragon.jpeg"
               alt="Dragon Drawing"
               height={200}
               width={300}

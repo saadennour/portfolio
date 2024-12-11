@@ -16,14 +16,14 @@ export default function Journey() {
       <div className="flex flex-col items-center w-1/2 gap-2 2xl:w-1/3">
         <div className="flex self-end gap-8 max-sm:gap-4">
           <Image
-            src="/Vectors/Star.svg"
+            src="/portfolio/Vectors/Star.svg"
             alt="BigStar"
             height={92}
             width={69}
             className="animate-flashy max-lg:w-[42px] max-lg:h-[52px]"
           />
           <Image
-            src="/Vectors/Star.svg"
+            src="/portfolio/Vectors/Star.svg"
             alt="MinStar"
             height={56}
             width={42}
