@@ -5,7 +5,7 @@ const nextConfig = {
 	images: {
 		unoptimized: true, // GitHub Pages doesn't support Next.js Image Optimization
 	  },
-	assetPrefix: "/portfolio"
+	assetPrefix: "/portfolio/"
 };
 
 export default nextConfig;

@@ -14,7 +14,7 @@ export default function Home() {
           className="rounded-full aspect-auto max-sm:w-[100px] max-sm:h-[100px]"
         />
         <h1 className="text-center font-bold text-3xl md:text-6xl xl:text-8xl leading-[48px] md:leading-[80px] xl:leading-[128px] text-Grape">
-          Hi. I'm Saad.
+          Hi. I'm Saiddd.
           <br />A Developer.
         </h1>
       </div>
