@@ -2,7 +2,10 @@
 const nextConfig = {
 	basePath: "/portfolio",
 	output: "export",
-	reactStrictMode: true,
+	images: {
+		unoptimized: true, // GitHub Pages doesn't support Next.js Image Optimization
+	  },
+	assetPrefix: "/portfolio"
 };
 
 export default nextConfig;
