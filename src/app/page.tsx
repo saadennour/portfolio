@@ -8,6 +8,7 @@ import Webserver from "./components/Webserver";
 import Pong from "./components/Pong";
 import Footer from "./components/Footer";
 import { Scroll } from "./components/Scroll";
+import "./globals.css";
 
 export default function App() {
   return (
