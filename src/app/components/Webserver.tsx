@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import { Caption } from "./fonts/Caption";
 import { Quote } from "./fonts/Quote";
@@ -7,8 +8,15 @@ import { Body } from "./fonts/Body";
 import { Ticket } from "./Ticket";
 import { Picture } from "./Picture";
 import Link from "next/link";
+import { motion } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 
 export default function Webserver() {
+  const { ref, inView } = useInView({
+    triggerOnce: false,
+    threshold: 0.1,
+  });
+
   return (
     <div className="w-full flex flex-col gap-20">
       <div className="flex items-center gap-10 2xl:gap-20">
@@ -25,14 +33,40 @@ export default function Webserver() {
             className="bg-gradient-to-r from-Sky to-Grape bg-clip-text text-transparent"
           />
         </div>
-        <div className="relative w-2/3">
-          <Image
-            src="/portfolio/Vectors/WebservArrow.svg"
-            alt="Arrow"
-            height={457}
-            width={426}
-            className=""
-          />
+        <div ref={ref} className="relative w-2/3">
+          <motion.svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="426"
+            height="457"
+            viewBox="0 0 426 457"
+            fill="none"
+          >
+            <motion.path
+              initial={{ pathLength: 0 }}
+              animate={{ pathLength: inView ? 1 : 0 }}
+              transition={{
+                duration: 2,
+                ease: "easeInOut",
+              }}
+              stroke="url(#paint0_linear_1005_16670)"
+              strokeWidth={3}
+              strokeDasharray="0 1"
+              d="M75.0697 452.722C75.1232 453.56 74.5137 454.349 73.7082 454.483L60.5822 456.676C59.7767 456.81 59.0804 456.24 59.0268 455.401C58.9733 454.563 59.5829 453.774 60.3884 453.64L72.0559 451.691L71.2806 439.547C71.2271 438.709 71.8367 437.92 72.6422 437.786C73.4476 437.651 74.144 438.222 74.1975 439.06L75.0697 452.722ZM129 111.869L127.56 111.751L129 111.869ZM72.6485 454.211C28.6806 418.187 7.91613 390.646 2.33997 366.451C-3.2834 342.052 6.59916 321.414 22.6722 299.67C54.8659 256.117 112.186 207.381 127.56 111.751L130.441 111.987C114.893 208.704 56.6308 258.508 24.9169 301.412C9.03616 322.897 -0.116571 342.467 5.18507 365.47C10.5339 388.679 30.6548 415.735 74.574 451.72L72.6485 454.211ZM127.56 111.751C134.971 65.6487 150.507 43.4569 171.864 34.6793C182.441 30.3327 194.273 29.3583 206.929 30.2011C219.587 31.044 233.183 33.7145 247.311 36.7485C275.652 42.8345 306.161 50.3756 336.375 48.0798C366.474 45.7927 396.234 33.7382 423.076 0.535246L425.228 2.39716C397.744 36.3956 367.135 48.8047 336.315 51.1465C305.611 53.4796 274.655 45.815 246.476 39.7639C232.346 36.7294 218.919 34.0984 206.477 33.2699C194.034 32.4413 182.691 33.4256 172.703 37.5306C152.931 45.6562 137.779 66.3393 130.441 111.987L127.56 111.751Z"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear_1005_16670"
+                x1="290.5"
+                y1="30.8692"
+                x2="9.78406"
+                y2="438.617"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stopColor="#FFC787" />
+                <stop offset="1" stopColor="#E0A6F4" />
+              </linearGradient>
+            </defs>
+          </motion.svg>
           <div className="absolute top-1/3 left-1/3 flex flex-col gap-10">
             <Image
               src="/portfolio/Logos/Docker.png"
