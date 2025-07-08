@@ -30,7 +30,7 @@ export default function Footer() {
           />
           <Body content="My journey didn't end here and i still have the same hunger to learn, grow and achieve more." />
           <a
-            href={"/resume.pdf"}
+            href={"/portfolio/resume.pdf"}
             download={"SaadEnnour_Resume.pdf"}
             className={`${dm_sans.className} bg-gradient-to-r from-Lime to-Citron bg-clip-text text-transparent border-4 border-Grape rounded-[32px] px-6 py-2 text-[24px] leading-8 max-md:border-2 max-md:px-2 max-md:py-1 max-md:text-[12px] max-md:leading-4 self-center cursor-pointer hover:transition ease-in-out hover:scale-110 delay-150 duration-500`}
           >
