@@ -1,9 +1,14 @@
 import type { Metadata } from "next";
-import { Space_Mono } from "next/font/google";
+import { Space_Mono, DM_Sans } from "next/font/google";
 import "./globals.css";
 import { AOSInit } from "./aos";
 
 const spacemono = Space_Mono({ subsets: ["latin"], weight: ["700"] });
+const dm_sans = DM_Sans({
+  subsets: ["latin"],
+  weight: ["700", "400", "300"],
+  variable: "--font-dm-sans",
+});
 
 export const metadata: Metadata = {
   title: "Saad-Ennour's Portfolio",
@@ -18,7 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <AOSInit />
-      <body className={`${spacemono.className}`}>{children}</body>
+      <body className={`${spacemono.className} ${dm_sans.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }

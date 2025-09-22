@@ -3,7 +3,6 @@ import Image from "next/image";
 import { BigTitle } from "./fonts/BigTitle";
 import { Body } from "./fonts/Body";
 import Link from "next/link";
-import { DM_Sans } from "next/font/google";
 import { Nanum_Pen_Script } from "next/font/google";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
@@ -11,7 +10,6 @@ import { IoMdMail } from "react-icons/io";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-const dm_sans = DM_Sans({ subsets: ["latin"] });
 const pen = Nanum_Pen_Script({ subsets: ["latin"], weight: ["400"] });
 
 export default function Footer() {
@@ -32,7 +30,7 @@ export default function Footer() {
           <a
             href={"/portfolio/resume.pdf"}
             download={"SaadEnnour_Resume.pdf"}
-            className={`${dm_sans.className} bg-gradient-to-r from-Lime to-Citron bg-clip-text text-transparent border-4 border-Grape rounded-[32px] px-6 py-2 text-[24px] leading-8 max-md:border-2 max-md:px-2 max-md:py-1 max-md:text-[12px] max-md:leading-4 self-center cursor-pointer hover:transition ease-in-out hover:scale-110 delay-150 duration-500`}
+            className={`font-sans bg-gradient-to-r from-Lime to-Citron bg-clip-text text-transparent border-4 border-Grape rounded-[32px] px-6 py-2 text-[24px] leading-8 max-md:border-2 max-md:px-2 max-md:py-1 max-md:text-[12px] max-md:leading-4 self-center cursor-pointer hover:transition ease-in-out hover:scale-110 delay-150 duration-500`}
           >
             Resume
           </a>

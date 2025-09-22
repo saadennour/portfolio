@@ -6,10 +6,10 @@ import { useInView } from "react-intersection-observer";
 export default function Skills() {
   const Skills = [
     "Javascript",
-    "C/C++",
+    "Express",
     "Typescript",
     "React.js",
-    "HTML",
+    "SQL",
     "CSS & Tailwind",
     "Next.js",
     "UI/UX Design",
@@ -27,7 +27,10 @@ export default function Skills() {
       <div className="flex flex-wrap justify-between max-sm:gap-5 gap-10">
         {Skills.map((skill, index) => (
           <div key={index} data-aos="fade-up">
-            <SkillTag name={skill} />
+            <SkillTag
+              name={skill}
+              className="max-sm:border-2 border-4 rounded-[32px] max-sm:text-xs lg:text-xl xl:text-2xl max-sm:py-1 max-sm:px-2 py-2 px-4 md:px-6"
+            />
           </div>
         ))}
       </div>

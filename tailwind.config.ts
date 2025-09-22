@@ -3,6 +3,7 @@ import type { Config } from "tailwindcss";
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 const config: Config = {
+  darkMode: ["class"],
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -23,11 +24,56 @@ const config: Config = {
         Sky: "#82B4FF",
         LightSky: "#BFF0FF",
         Gray: "#282828",
+        Green: "#3BC88C",
         Peach: "#FEBD81",
         Grass: "#BFF4A6",
         Red: "#FF4646",
         Berry: "#FF9486",
         Pink: "#FDBEEF",
+        background: "#000000",
+        foreground: "#F5F5F5",
+        card: {
+          DEFAULT: "hsl(var(--card))",
+          foreground: "hsl(var(--card-foreground))",
+        },
+        popover: {
+          DEFAULT: "hsl(var(--popover))",
+          foreground: "hsl(var(--popover-foreground))",
+        },
+        primary: {
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        secondary: {
+          DEFAULT: "hsl(var(--secondary))",
+          foreground: "hsl(var(--secondary-foreground))",
+        },
+        muted: {
+          DEFAULT: "hsl(var(--muted))",
+          foreground: "hsl(var(--muted-foreground))",
+        },
+        accent: {
+          DEFAULT: "hsl(var(--accent))",
+          foreground: "hsl(var(--accent-foreground))",
+        },
+        destructive: {
+          DEFAULT: "hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-foreground))",
+        },
+        border: "hsl(var(--border))",
+        input: "hsl(var(--input))",
+        ring: "hsl(var(--ring))",
+        chart: {
+          "1": "hsl(var(--chart-1))",
+          "2": "hsl(var(--chart-2))",
+          "3": "hsl(var(--chart-3))",
+          "4": "hsl(var(--chart-4))",
+          "5": "hsl(var(--chart-5))",
+        },
+      },
+      fontFamily: {
+        sans: ["var(--font-dm-sans)", ...defaultTheme.fontFamily.sans],
+        mono: ["var(--font-space-mono)", ...defaultTheme.fontFamily.mono],
       },
       keyframes: {
         flashy: {
@@ -55,11 +101,9 @@ const config: Config = {
         line: {
           "0%": {
             transforn: "translateY(-100)",
-            // width: "100%",
           },
           "100%": {
             transforn: "translateY(0)",
-            // width: "100%",
           },
         },
       },
@@ -74,8 +118,16 @@ const config: Config = {
           ...defaultTheme.screens,
         },
       },
+      borderRadius: {
+        lg: "var(--radius)",
+        md: "calc(var(--radius) - 2px)",
+        sm: "calc(var(--radius) - 4px)",
+      },
     },
   },
-  plugins: [require("tailwindcss-debug-screens")],
+  plugins: [
+    require("tailwindcss-debug-screens"),
+    require("tailwindcss-animate"),
+  ],
 };
 export default config;

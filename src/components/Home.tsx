@@ -1,18 +1,21 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import "@/styles/cursorStyle.css";
 
 export default function Home() {
   return (
     <div className="w-full h-full flex flex-col gap-10 justify-between items-center max-sm:gap-5 2xl:gap-20">
-      <div className="flex flex-col items-center gap-4">
-        <Image
-          src={"/portfolio/Assets/ana.jpeg"}
-          alt="me"
-          width={150}
-          height={150}
-          className="rounded-full aspect-auto max-sm:w-[100px] max-sm:h-[100px]"
-        />
+      <div className="relative flex flex-col items-center gap-4">
+        <div className="border-8 border-white rounded-full">
+          <Image
+            src={"/portfolio/Assets/ana.jpeg"}
+            alt="me"
+            width={150}
+            height={150}
+            className="rounded-full border-4 border-black aspect-auto max-sm:w-[100px] max-sm:h-[100px]"
+          />
+        </div>
         <h1 className="text-center font-bold text-3xl md:text-6xl xl:text-8xl leading-[48px] md:leading-[80px] xl:leading-[128px] text-Grape">
           Hi. I'm Saad.
           <br />A Developer.

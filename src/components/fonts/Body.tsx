@@ -1,0 +1,13 @@
+import { TextProps } from "./BigTitle";
+
+export const Body: React.FC<TextProps> = ({ content, color, className }) => {
+  return (
+    <p
+      className={`font-sans ${color ?? ""} ${
+        className ?? ""
+      } text-[10px] sm:text-[12px] md:text-base lg:text-lg xl:text-2xl leading-5 sm:leading-6 md:leading-8 lg:leading-10 xl:leading-[60px]`}
+    >
+      {content}
+    </p>
+  );
+};

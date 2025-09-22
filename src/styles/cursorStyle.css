@@ -1,0 +1,17 @@
+.cursor {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  mask-image: url("../../public/Assets/cursor.svg");
+  background-color: #f5f5f5;
+  mask-repeat: no-repeat;
+  mask-size: 40px;
+  pointer-events: none;
+  z-index: 50;
+}
+
+.cursor.cursor-alt {
+  -webkit-mask-image: url("../../public/Assets/ViewMore.svg");
+  mask-image: url("../../public/Assets/ViewMore.svg");
+  mask-size: 100px;
+}
