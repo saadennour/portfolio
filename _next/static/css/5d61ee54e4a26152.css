@@ -1,0 +1,1 @@
+.projectCard{filter:grayscale(100%);transition:filter .5s ease-in-out;scale:90%;transition:scale .5s ease-in-out}.projectCard:hover{filter:grayscale(0);scale:95%;transform:translateY(-10px);transition:transform .5s ease-in-out,scale .5s ease-in-out}
